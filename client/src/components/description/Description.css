@@ -1,0 +1,35 @@
+.description__container {
+  width: 100%;
+  position: relative;
+  height: 371px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 0px 0px 25px 25px;
+}
+.description__icon {
+  position: absolute;
+}
+.special__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.special__flex :first-child {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.special__flex :last-child {
+  margin-left: 330px;
+  margin-top: 20px;
+}
+.special__flex :first-child:hover {
+  cursor: pointer;
+}
+.special__flex :last-child:hover {
+  cursor: pointer;
+}
+.center {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}

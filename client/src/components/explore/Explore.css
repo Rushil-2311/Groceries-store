@@ -1,0 +1,24 @@
+.main__div {
+  margin: 10px;
+}
+.find__product {
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 18px;
+}
+.explore__search {
+  margin-bottom: 20px;
+}
+.explore__catagories {
+  height: 174px;
+  width: 189px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(83, 177, 117, 0.1);
+  border: 1px solid rgba(83, 177, 117, 0.7);
+  box-sizing: border-box;
+  border-radius: 18px;
+}

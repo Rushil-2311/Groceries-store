@@ -1,0 +1,23 @@
+.onbording__container {
+  height: 100vh;
+  max-width: 411px;
+  position: relative;
+}
+.onbording__container img {
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+.onbording__container button {
+  z-index: 100;
+  position: absolute;
+  right: 61px;
+  top: 500px;
+  height: 45px;
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  color: #53b175;
+  font-size: 20px;
+  background-color: white;
+}

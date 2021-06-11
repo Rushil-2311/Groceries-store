@@ -1,0 +1,64 @@
+.this__offer {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 15px 15px 10px 15px;
+  margin: 10px 10px 10px 0;
+  width: 200px;
+  overflow: hidden;
+  height: auto;
+}
+
+.imge {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.heeading p {
+  color: rgba(124, 124, 124, 1);
+  width: 132px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 18px;
+}
+.heeading > :nth-child(1) {
+  color: black;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+.imge img {
+  margin-bottom: 10px;
+  width: 99px;
+  height: 89px;
+}
+.imge img:hover {
+  cursor: pointer;
+}
+.price__add {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price__add > p {
+  color: rgba(24, 23, 37, 1);
+  font-family: Gilroy !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 15px;
+}
+.price__add button {
+  width: 45px;
+  height: 45px;
+  border-radius: 40%;
+  background-color: rgba(83, 177, 117, 1);
+  border: none;
+}

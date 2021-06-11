@@ -1,0 +1,38 @@
+.welcome__container {
+  background-color: #53b175;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image__container {
+  position: relative;
+}
+.image__container h3 {
+  font-size: 20px;
+  position: absolute;
+  left: 122px;
+  bottom: -26px;
+  color: white;
+}
+
+.welcome__container button {
+  margin: 50px;
+  height: 45px;
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  color: #53b175;
+  font-size: 20px;
+  background-color: white;
+}
+.welcome__container button:hover {
+  background-color: #59ec94;
+  color: #ffffff;
+  cursor: pointer;
+}
+.welcome__container button:focus {
+  outline: none;
+}
